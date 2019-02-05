@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AdHocPolimorfizm.AbsBaseClass1">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAgAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsBaseClass1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdHocPolimorfizm.AbsBaseClass2">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAgAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsBaseClass2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdHocPolimorfizm.AbsBaseClass3">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAgAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsBaseClass3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdHocPolimorfizm.Class1">
+    <Position X="1.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdHocPolimorfizm.Class2">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Class2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdHocPolimorfizm.Class3">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Class3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdHocPolimorfizm.Program">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

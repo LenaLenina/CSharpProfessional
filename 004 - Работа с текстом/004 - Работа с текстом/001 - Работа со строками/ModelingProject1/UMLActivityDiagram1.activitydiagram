@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="136a126a-8f5a-4f43-8fc9-956a443e740e" name="Activity1" linkedPackageId="70967bc3-3d4e-411e-a8dd-a9ba2462f575" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="9cd0c117-6cf1-42a9-a180-66135ee7eaa3">
+      <elementDefinition Id="00b968ba-92a3-4094-8458-848022ec915a" />
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="75dce624-72dd-4e0f-9717-9a486b124e02" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="6a90c040-8d88-43fa-b04f-58c3aedf2690" />
+        <nodes>
+          <objectNode Id="ea7c5e16-1373-45a0-9579-ea901a09bd54" name="Temperature" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="3f83106f-bf85-4d7d-b62c-400f1eb12dff" />
+            <objectFlowTargets>
+              <objectFlow Id="a8c2a83b-7aef-4651-a023-4523fd9283b3" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <opaqueActionMoniker Id="ffa89147-3938-4845-8681-26dc1cd8e7af" LastKnownName="Temperature(12)" />
+                <elementDefinition Id="8dd49a01-f66d-4fb2-a4ba-91d9f7bf47d9" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="e9cff10f-d556-493e-89fc-2f0bb554abb6" name="2147483647" value="2147483647">
+                <elementDefinition Id="42d3febe-645d-41ae-ba7f-17c07cbb2a9e" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="3d3dea93-06a8-4cb3-9d5b-7c89ecd8f836" name="Initial1" isLeaf="false">
+            <elementDefinition Id="955eaada-c0a1-4b65-8fd6-4309b0be199d" />
+            <objectFlowTargets>
+              <objectFlow Id="07da7a0e-d903-4ed6-9641-0c1657e1ac2c" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="ea7c5e16-1373-45a0-9579-ea901a09bd54" LastKnownName="Temperature" />
+                <elementDefinition Id="865fe4f9-db53-416c-92d5-c477d7707fc0" />
+              </objectFlow>
+            </objectFlowTargets>
+          </initialNode>
+          <opaqueAction Id="ffa89147-3938-4845-8681-26dc1cd8e7af" name="Temperature(12)" isLeaf="false">
+            <elementDefinition Id="120704cf-0c70-4c85-a88f-2391e2581906" />
+          </opaqueAction>
+          <objectNode Id="23c93e74-5ff3-4ba5-9d8b-298734444c32" name="Object1" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="690eceb2-b42b-4ba2-b204-af046100984d" />
+            <upperBound>
+              <literalInteger Id="8e8d47fe-4ab3-40a5-adb6-4f919659d3e5" name="2147483647" value="2147483647">
+                <elementDefinition Id="a3b2e9a6-0583-4975-bef4-59eb64cbe2d0" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="7ed09b78-7926-4d03-9d23-15d05dce16b4" name="temperature" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="7cc760ca-d949-4842-b685-f62ce58d0ff5" />
+            <upperBound>
+              <literalInteger Id="eba39b15-f469-4332-80de-31d5df4a2293" name="2147483647" value="2147483647">
+                <elementDefinition Id="70e05198-90bd-4128-82ac-650a2d2d4530" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <opaqueAction Id="ca59730d-c180-4b53-ae34-d89ad9d97ba4" name="ctor(decimal temp)" isLeaf="false">
+            <elementDefinition Id="60b5405b-ff4f-41e2-8615-10bbf73eac8b" />
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="70967bc3-3d4e-411e-a8dd-a9ba2462f575" name="ModelingProject1">
+    <elementDefinition Id="2ef1f1c5-4e5f-4c56-94de-00a5d16dd09e" />
+    <profileInstances>
+      <packageHasProfileInstances Id="88e9bea2-6b32-4a5f-a38f-9b9b4891c279">
+        <profileInstance Id="fb276790-4796-4893-84c8-73e3475cf6b0" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="2b79f3b5-fe9d-4f82-a1a3-dee3e51c49b0">
+        <profileInstance Id="4fbb0d86-2306-4a10-8b54-2557e1f50bf4" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a767996a-088f-42c4-afd3-0263301e42a5">
+        <profileInstance Id="5d9f72b4-1c8b-4f77-9216-9403ff031419" name="CSharpProfile">
+          <elementDefinition Id="72250a55-ae1d-46c4-939b-3436831b7ff6" />
+        </profileInstance>
+        <elementDefinition Id="14052547-ead7-4859-a9b1-f6586ff44327" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>
